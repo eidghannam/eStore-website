@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e9db1c68b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!--  Header -->
+
+    <section class="header">
+      <nav>
+        <a href="index.html"><i class="fa-solid fa-store"></i></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Welcome to eStore</h1>
+        <p>Your one-stop shop for all things amazing!</p>
+        <a href="" class="hero-btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Products -->
+
+    <section class="products">
+      <h1>Featured Products</h1>
+      <div class="row">
+        <div class="product-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Product 1</h3>
+          <p>Description of Product 1</p>
+          <span>$99.99</span>
+        </div>
+        <div class="product-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Product 2</h3>
+          <p>Description of Product 2</p>
+          <span>$99.99</span>
+        </div>
+        <div class="product-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Product 3</h3>
+          <p>Description of Product 3</p>
+          <span>$99.99</span>
+        </div>
+        <div class="product-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Product 4</h3>
+          <p>Description of Product 4</p>
+          <span>$99.99</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promotions -->
+
+    <section class="promotions">
+      <h1>Special Promotions</h1>
+      <div class="row">
+        <div class="promotion-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Promotion 1</h3>
+          <p>Special deal on Promotion 1</p>
+          <span>$99.99</span>
+        </div>
+        <div class="promotion-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Promotion 2</h3>
+          <p>Special deal on Promotion 2</p>
+          <span>$99.99</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+
+    <section class="reviews">
+      <h1>What Our Customers Are Saying</h1>
+      <div class="column">
+        <div class="review-row">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+            magnam.
+          </p>
+          <span>John Doe</span>
+        </div>
+        <div class="review-row">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+            magnam.
+          </p>
+          <span>John Doe</span>
+        </div>
+        <div class="review-row">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+            magnam.
+          </p>
+          <span>John Doe</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collections -->
+
+    <section class="collections">
+      <h1>Featured Collections</h1>
+      <div class="row">
+        <div class="collection-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Collection 1</h3>
+          <p>Explore our exclusive collection of trendy items.</p>
+        </div>
+        <div class="collection-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Collection 2</h3>
+          <p>discover the best deals in our summer collection.</p>
+        </div>
+        <div class="collection-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Collection 3</h3>
+          <p>Check out our new arrivals and fresh picks.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+
+    <section class="blog">
+      <h1>Latest Blog Posts</h1>
+      <div class="blog-row">
+        <div class="blog-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>How to Choose the Right Product</h3>
+          <p>Tips and tricks for selecting the perfect items for your needs.</p>
+        </div>
+      </div>
+      <div class="blog-row">
+        <div class="blog-col">
+          <img src="assests/img/mountain.jpg" alt="" />
+          <h3>Top 10 Summer Trends</h3>
+          <p>Stay ahead with the hottest trends for the upcoming season.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+
+    <section class="contact-us">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ipsum?</p>
+
+      <div class="row">
+        <div class="contact-col">
+          <form action="form-handler.php" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <textarea
+              name="message"
+              rows="8"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+
+    <section class="faq">
+      <h1>Frequently Asked Questions</h1>
+      <div class="column">
+        <div class="faq-row">
+          <h3>What is your return policy?</h3>
+          <p>
+            We offer a 30-day return policy for all products. Please contact our
+            support for more details.
+          </p>
+        </div>
+        <div class="faq-row">
+          <h3>What is your return policy?</h3>
+          <p>
+            We offer a 30-day return policy for all products. Please contact our
+            support for more details.
+          </p>
+        </div>
+        <div class="faq-row">
+          <h3>What is your return policy?</h3>
+          <p>
+            We offer a 30-day return policy for all products. Please contact our
+            support for more details.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+        similique molestiae ratione <br />quis dignissimos enim exercitationem
+        molestiae ratione
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+      </div>
+
+      <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+  </body>
+</html>
