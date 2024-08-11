@@ -5,6 +5,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 .header {
   min-height: 100vh;
   width: 100%;
@@ -16,11 +25,18 @@
   position: relative;
 }
 
-nav {
+.nav {
   display: flex;
   padding: 2% 5%;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav.sticky {
+  position: fixed;
+  background: #ccc;
 }
 
 nav img {
@@ -28,7 +44,7 @@ nav img {
 }
 
 nav a i {
-  color: #ccc;
+  color: #fff;
   font-size: 24px;
 }
 
@@ -284,6 +300,7 @@ nav .fa {
 .promotion-col span {
   padding-left: 10px;
 }
+
 /* reviews */
 
 .reviews {
@@ -421,7 +438,6 @@ nav .fa {
 
 .blog-col h3 {
   margin-top: 8px;
-  /* margin-bottom: 8px; */
   text-align: left;
 }
 
@@ -481,7 +497,6 @@ nav .fa {
   outline: none;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  /* background-color: #c2baba; */
 }
 
 /* FAQ */
