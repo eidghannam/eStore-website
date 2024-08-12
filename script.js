@@ -59,3 +59,19 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 });
 
 headerObserver.observe(header);
+
+//! Dark Theme
+// const body = document.body;
+const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
+
+function $(querySelector) {
+  return document.querySelector(querySelector);
+}
+
+toggleSwitch.addEventListener("change", function () {
+  if (this.checked) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+});
