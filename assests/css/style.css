@@ -260,6 +260,7 @@ nav .fa {
   padding-bottom: 10px;
   cursor: pointer;
   box-shadow: var(--col-boxshadow);
+  border: 2.5px solid var(--body-bg);
   transition: ease-out 0.175s;
 }
 
@@ -318,6 +319,7 @@ nav .fa {
   box-shadow: var(--col-boxshadow);
   padding-bottom: 10px;
   cursor: pointer;
+  border: 2.5px solid var(--body-bg);
   transition: ease-out 0.175s;
 }
 
@@ -381,6 +383,7 @@ nav .fa {
   margin-bottom: 5%;
   background: var(--row-bg);
   box-shadow: var(--col-boxshadow);
+  border: 2.5px solid var(--body-bg);
   border-radius: 10px;
   box-sizing: border-box;
   padding: 20px 12px;
@@ -424,6 +427,7 @@ nav .fa {
   text-align: center;
   background: var(--col-bg);
   box-shadow: var(--col-boxshadow);
+  border: 2.5px solid var(--body-bg);
   padding-bottom: 10px;
   cursor: pointer;
   transition: ease-out 0.175s;
@@ -470,6 +474,7 @@ nav .fa {
   display: flex;
   background: var(--col-bg);
   box-shadow: var(--col-boxshadow);
+  border: 2.5px solid var(--body-bg);
   padding: 15px 10px 0px;
   border-radius: 2%;
   cursor: pointer;
@@ -587,6 +592,7 @@ nav .fa {
   margin-bottom: 5%;
   background: var(--row-bg);
   box-shadow: var(--col-boxshadow);
+  border: 2.5px solid var(--body-bg);
   border-radius: 10px;
   box-sizing: border-box;
   padding: 10px 0 10px 15px;
